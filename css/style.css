@@ -1,0 +1,90 @@
+# Empty CSS file for your own CSS
+
+.debug{border: 1px solid #ffcc00;}
+#landing h3 {color: #4A5F7E; font-size: 30px; font-weight: 700; padding-bottom: 20px; line-height: 42px; display: block; padding: 10px;}
+#landing h4 {color: #4A5F7E; font-size: 20px; font-weight: 300; line-height: 32px; display: block; padding: 20px;}
+
+.landing-branding{padding-top: 20px; color: #4A5F7E; font-size: 18px; text-align: right;}
+.landing-branding h2{font-size: 36px; font-weight: 700; color: #3FABDF; margin-top: 8px;}
+.landing-branding img{float: left;}
+
+.landing-header {
+	background: url('../images/landing-header.png') center repeat-x;
+	min-height: 260px;
+	text-align: center;
+	color: #ffffff;
+	padding: 40px 20px 60px 20px;
+}
+
+.landing-header h1, .landing-header h2{color: #ffffff;}
+.landing-header h1 {font-weight: 700;}
+.landing-header h2 {font-weight: 300; font-size: 24px;  display: block; max-width: 70%; margin: 20px auto; line-height: 34px;}
+
+.form-visual {background: #EDEEF0; min-height: 600px;}
+.form-visual div img {width: 100%; max-width: 700px; }
+
+form.landing-form{
+		width: 390px;
+/* 		float: right; */
+		padding: 30px 60px;
+		background: #fafafa;
+		border: 1px solid #C7CCD2;
+		border-radius: 6px;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+		overflow: hidden;
+		margin-top: -30px;
+		-webkit-box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.10);
+		-moz-box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.10);
+		box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.10); 
+}
+.form-cap{
+		height: 70px;
+		background: #F09C0A;
+		padding: 20px;
+		border-top-left-radius: 6px;
+		border-top-right-radius: 6px;
+		-moz-border-top-left-radius: 6px;
+		-webkit-border-top-left-radius: 6px;
+		-moz-border-top-right-radius: 6px;
+		-webkit-border-top-right-radius: 6px;
+		color: #ffffff;
+		font-size: 26px;
+		text-align: center;
+		margin: -30px -60px 30px -60px;
+		overflow: visible;
+}
+.landing-leadin {padding: 60px 20px;; clear: both;}
+.courseOVW ul {list-style: none; margin-left: -15px;}
+.courseOVW ul li{padding: 4px 0; color: #4A5F7E;}
+.courseOVW li:before {
+		content: "•";
+		font-size: 150%;
+		padding-right: 15px;
+		color: #F09C0A;
+		display: inline-block;
+		width: 1em;
+		margin-left: -1em
+}
+.benefits {background: #1C75BB; padding: 60px 40px}
+.benefits img {float: left;}
+#landing .benefits h4 {float: left; margin-top: -8px; color: #ffffff; font-size: 26px; font-weight: 500; line-height: 30px; display: block; padding: 20px;}
+.benefits p{clear: both; font-size: 16px; color: #C7CCD2; line-height: 30px; padding-top: 12px;}
+
+.customers {background: #F6F9FA; text-align: center; padding: 40px 20px 60px 20px;}
+.customers div img {margin: 12px;}
+
+#landing .footer {background: #3E3E3F; color: #969696; font-size: 16px; padding: 60px 20px;}
+#landing .footer img {margin-bottom: 32px;}
+
+@media only screen and (max-width: 768px){
+		.form-visual {position: relative; min-height: 650px;}
+		form.landing-form{margin-top: 20px; max-width: 335px;}
+		
+		.landing-header {
+			min-height: 400px;
+			background: url('../images/landing-header.png') center;
+			background-size: cover;
+		}
+
+}

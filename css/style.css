@@ -9,16 +9,22 @@
 .landing-branding img{float: left;}
 
 .landing-header {
-	background: url('../images/landing-header.png') center repeat-x;
+	background: url('../images/landing-header.png') center repeat-x #3FABDF;
 	min-height: 260px;
 	text-align: center;
 	color: #ffffff;
-	padding: 40px 20px 60px 20px;
+	padding: 40px 20px 50px 20px;
 }
 
 .landing-header h1, .landing-header h2{color: #ffffff;}
 .landing-header h1 {font-weight: 700;}
 .landing-header h2 {font-weight: 300; font-size: 24px;  display: block; max-width: 70%; margin: 20px auto; line-height: 34px;}
+.screenshot img{
+		-webkit-box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.10);
+		-moz-box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.10);
+		box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.10);
+		border: 1px solid #C7CCD2; 
+	}
 
 .form-visual {background: #EDEEF0; min-height: 600px;}
 .form-visual div img {width: 100%; max-width: 700px; }
@@ -39,7 +45,7 @@ form.landing-form{
 		box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.10); 
 }
 .form-cap{
-		height: 70px;
+		min-height: 70px;
 		background: #F09C0A;
 		padding: 20px;
 		border-top-left-radius: 6px;
@@ -72,10 +78,18 @@ form.landing-form{
 .benefits p{clear: both; font-size: 16px; color: #C7CCD2; line-height: 30px; padding-top: 12px;}
 
 .customers {background: #F6F9FA; text-align: center; padding: 40px 20px 60px 20px;}
-.customers div img {margin: 12px;}
+.customers div img {margin: 12px auto;}
 
 #landing .footer {background: #3E3E3F; color: #969696; font-size: 16px; padding: 60px 20px;}
 #landing .footer img {margin-bottom: 32px;}
+
+.em-logos{
+	 height: 80px;
+    display: flex;
+    align-items: center;
+	text-align: center;
+	
+}
 
 @media only screen and (max-width: 768px){
 		.form-visual {position: relative; min-height: 650px;}
@@ -83,7 +97,7 @@ form.landing-form{
 		
 		.landing-header {
 			min-height: 400px;
-			background: url('../images/landing-header.png') center;
+			background: url('../images/landing-header.png') center #3FABDF;
 			background-size: cover;
 		}
 
